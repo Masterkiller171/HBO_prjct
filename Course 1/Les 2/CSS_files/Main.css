@@ -1,3 +1,8 @@
+body{
+background-image: url(../IMG_files/avans_breda.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
 .sub-menu-parent {
     position: relative;
 }
@@ -170,9 +175,8 @@ headbox {
     border: 1px dotted gray;
     position: absolute;
     width: 100%;
-    height: 291px;
-    left: 1px;
-    top: 506px;
+    height: 300px;
+    top: 500px;
     background-color: white;
 }
 #divintxtbx {
@@ -181,6 +185,21 @@ headbox {
     width: 200px;
     height: 200px;
     left: 5%;
-    top: 26px;
+    top: 45px;
     background-color: aliceblue;
+}
+.block{
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 400px;
+     width: 90%;
+    text-align: center;
+    height: 400px;
+    opacity: 0.8;
+}
+.panel-body > h1{
+    font-style: italic;
+    color: #8c8c8c;
+    opacity: 1.0;
 }
