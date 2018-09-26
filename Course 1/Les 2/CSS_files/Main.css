@@ -180,7 +180,7 @@ headbox {
 
 .txtbx2 {
     top: 1900px;
-    height: 200px;
+    height: auto;
 }
 
 #divintxtbx {
@@ -190,7 +190,12 @@ headbox {
     height: 200px;
     left: 5%;
     top: 45px;
-    background-color: aliceblue;
+    background-color: #D4D4D4;
+}
+#txtfooter {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .block {
@@ -202,6 +207,11 @@ headbox {
     text-align: center;
     height: 400px;
     opacity: 0.8;
+}
+.smallbximg{
+    width: 100%;
+    height: 100%;
+    padding: 11px;
 }
 
 .panel-body > h1 {
