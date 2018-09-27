@@ -2,7 +2,7 @@ body {
     background-image: url(../IMG_files/avans_breda.jpg);
     background-size: cover;
     background-attachment: fixed;
-    animation: fadeIn 2s;
+    animation: fadeIn 2.5s;
 }
 
 @keyframes fadeIn {
