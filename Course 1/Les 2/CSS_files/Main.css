@@ -245,9 +245,8 @@ headbox {
 
 #left-arr{
     height: 100%;
-    padding-left: 45%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 60px;
+    padding-left: 43%;
 }
 #right-arr{
     height: 100%;
