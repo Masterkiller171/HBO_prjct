@@ -2,7 +2,7 @@ body {
     background-image: url(../IMG_files/avans_breda.jpg);
     background-size: cover;
     background-attachment: fixed;
-    animation: fadeIn 2s;
+    animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
@@ -20,8 +20,14 @@ nav {
     position: fixed;
     width: 100%;
     background-color: white;
+    animation: fadeIn 1s;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
 .sub-menu {
     visibility: hidden;
     position: absolute;
@@ -149,8 +155,13 @@ text-align-cent {
     height: 150px;
     left: 47.68%;
     top: 243px;
+    animation: fadeIn 2s;
 }
-
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
 imgbox {
     height: auto;
     width: auto;
@@ -171,13 +182,25 @@ headbox {
     height: 300px;
     top: 500px;
     background-color: white;
+    animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
 }
 
 .txtbx1 {
     top: 1200px;
     height: 200px;
+    width: 100%;
 }
-
+.txtbxv1{
+    height: 100%;
+    width: 50%;
+    background-color: cornflowerblue;
+    float: right;
+}
 .txtbx2 {
     top: 1900px;
     height: auto;
@@ -218,4 +241,16 @@ headbox {
     font-style: italic;
     color: #8c8c8c;
     opacity: 1.0;
+}
+
+#left-arr{
+    height: 100%;
+    padding-left: 45%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#right-arr{
+    height: 100%;
+    padding: 60px;
+    transform: rotate(180deg);
 }

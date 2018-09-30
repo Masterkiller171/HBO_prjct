@@ -1,12 +1,35 @@
-var img = document.getElementById('avans_log');
-var position = 0;
-var id = setInterval(frame, 10);
-
-function scroller(){ 
+function clckright(){
+    var leftar = document.getElementById("left-arr");
     
-    if(pos == 200){
-        clearInterval(id);
+    if(leftar.style.display === "inline-block"){ 
+        
+    document.getElementById("right").style.width = "100%";
+    leftar.style.display = "none";
+    document.getElementById("right-arr").style.transform = "initial";
+        
     }else{
-        img.style.left = position + 'px';
+        
+    document.getElementById("right").style.width = "50%";
+    document.getElementById("left-arr").style.display = "inline-block";
+    document.getElementById("right-arr").style.transform = "initial";
+        
     }
+}    
+
+function clckleft(){
+    var rittar = document.getElementById("right");
+    
+    if(leftar.style.display === "inline-block"){ 
+        
+    document.getElementById("right").style.width = "100%";
+    leftar.style.display = "none";
+    document.getElementById("right-arr").style.transform = "initial";
+        
+    }else{
+        
+    document.getElementById("right").style.width = "50%";
+    document.getElementById("left-arr").style.display = "inline-block";
+    document.getElementById("right-arr").style.transform = "initial";
+        
+    } 
 }
