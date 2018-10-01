@@ -25,11 +25,13 @@ function clckleft() {
         right.style.display = "none";
         document.getElementById("left-arr").setAttribute('style', 'transform: rotate(180deg);');
         document.getElementById("left-arr").setAttribute('style', 'padding-left: 90%;');
+        document.getElementById("rghtclss").style.width = "80%";
     } else {
 
         right.style.display = "inline-block";
         document.getElementById("left-arr").style.transform = "initial";
-        document.getElementById("left-arr").setAttribute('style', 'padding-left: 43%;');
+        document.getElementById("left-arr").setAttribute('style', 'padding-left: 0px;');
+        document.getElementById("rghtclss").style.width = "40%";
 
     }
 }

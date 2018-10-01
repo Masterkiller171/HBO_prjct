@@ -147,8 +147,7 @@ text-align-cent {
     width: 100%;
 }
 
-#avans_log {
-    position: absolute;
+#avans_log { 
     display: inline-block;
     border-radius: 100%;
     width: 150px;
@@ -156,6 +155,7 @@ text-align-cent {
     left: 47.68%;
     top: 243px;
     animation: fadeIn 2s;
+    z-index: -1;
 }
 @keyframes fadeIn {
     from {
@@ -183,6 +183,7 @@ headbox {
     top: 500px;
     background-color: white;
     animation: fadeIn 4s;
+    z-index: -1;
 }
 @keyframes fadeIn {
     from {
@@ -194,11 +195,12 @@ headbox {
     top: 1200px;
     height: 200px;
     width: 100%;
+    background-color: #fcfcfc;
 }
 .txtbxv1{
     height: 100%;
     width: 50%;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #fcfcfc, cornflowerblue);
     float: right;
 }
 .txtbx2 {
@@ -243,13 +245,41 @@ headbox {
     opacity: 1.0;
 }
 
-#left-arr{
+.text-box{
+    display: inline-block;
     height: 100%;
-    padding: 60px;
-    padding-left: 43%;
+    width: 70%;
+    padding: 10px;
+    float: right;
 }
-#right-arr{
+
+.text-boxR{
+    display: inline-block;
     height: 100%;
-    padding: 60px;
+    width: 40%;
+    padding: 10px;
+    float: left;
+
+
+}
+#left-arr{
+    max-height: 180px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.head{
+    font-style: italic;
+}
+.txt{
+    font-style: italic;
+}
+
+#right-arr{
+    display: inline-block;
+    max-height: 180px;
+    padding-top: 80px;
+    padding-right: 18%;
+    padding-bottom: 80px;
     transform: rotate(180deg);
 }
