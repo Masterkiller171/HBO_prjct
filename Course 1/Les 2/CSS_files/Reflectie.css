@@ -1,8 +1,41 @@
-.refbx{
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 100px;
+.wrapper {
+    padding: 100px;
+}
+
+.innerwrapper {
+    padding-top: 100px;
+}
+
+.txtwrapper {
+    padding: 50px;
+}
+
+.chptrwrapper {
+    padding-top: 50px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.backgroundwhite {
     background-color: white;
-    
+}
+
+.bootedit1 {
+    height: 500px;
+    z-index: -1;
+    position: fixed;
+    border-radius: 20px;
+}
+
+.arrow {
+    list-style: circle;
+}
+
+.bootedit2 {
+    height: 700px;
+    z-index: -1;
+    border-radius: 20px;
+
 }
