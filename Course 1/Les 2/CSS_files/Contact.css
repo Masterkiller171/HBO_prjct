@@ -1,0 +1,40 @@
+.menu {
+    height: 600px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.conttxtbx {
+    height: auto;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.contcttitlewrrpr {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.contacttitle {
+    background-color: #785027;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxlefttop {
+    background-color: #8b5d3e;
+}
+
+.boxrighttop {
+    background-color: #9f6934;
+}
+
+.boxleftbottom {
+    background-color: #9f6934;
+    border-bottom-left-radius: 20px;
+}
+
+.boxrightbottom {
+    background-color: #8b5d3e;
+    border-bottom-right-radius: 20px;
+}
