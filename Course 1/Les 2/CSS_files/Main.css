@@ -5,12 +5,13 @@ body {
     background-image: url(../IMG_files/avans_breda1.jpg);
     background-size: cover;
     background-attachment: fixed;
-<<<<<<< HEAD
     animation: fadeIn 2.5s;
-=======
     animation: fadeIn 0.5s;
+<<<<<<< HEAD
 >>>>>>> 64a32c7e8d69ae83ac1138a2f8972f320a217fd8
         z-index: 9999;
+=======
+>>>>>>> 46dc84e95a204f8b5a68885c3e40c5d48b4d8762
 }
 
 .Navigationblur {
