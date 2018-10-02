@@ -2,9 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
-    font-size:22px;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../IMG_files/avans_breda.jpg);
+    background-image: url(../IMG_files/avans_breda1.jpg);
     background-size: cover;
     background-attachment: fixed;
 <<<<<<< HEAD
@@ -12,8 +10,21 @@ body {
 =======
     animation: fadeIn 0.5s;
 >>>>>>> 64a32c7e8d69ae83ac1138a2f8972f320a217fd8
+        z-index: 9999;
 }
 
+.Navigationblur {
+    background-image: url(https://www.ilovewallpaper.co.uk/images/i-love-wallpaper-warehouse-photographic-brick-effect-wallpaper-white-grey-ilw261454-p2671-9190_image.jpg);
+	background-position:center;
+    background-size:contain;
+    background-attachment: fixed;
+    filter: blur(2px);
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -58,14 +69,16 @@ nav {
 }
 
 nav a {
-    color: #d10000;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
     display: inline-block;
     padding: 12px 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: #a3a3a3;
 }
 
 nav ul,
@@ -85,7 +98,7 @@ nav > ul > li {
 }
 
 .sub-menu {
-    background: #ffffff;
+    background: #d10000;
 }
 
 .sub-menu a {
@@ -168,6 +181,7 @@ text-align-cent {
     animation: fadeIn 2s;
     z-index: -1;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -187,6 +201,8 @@ headbox {
 }
 
 .txtbx {
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
     border: 1px dotted gray;
     position: absolute;
     width: 100%;
