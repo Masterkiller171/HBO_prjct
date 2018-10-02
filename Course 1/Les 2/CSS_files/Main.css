@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https: //fonts.googleapis.com/css?family=Open+Sans);
+@import url(https: //fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
     background-image: url(../IMG_files/avans_breda1.jpg);
@@ -7,25 +7,23 @@ body {
     background-attachment: fixed;
     animation: fadeIn 2.5s;
     animation: fadeIn 0.5s;
-<<<<<<< HEAD
->>>>>>> 64a32c7e8d69ae83ac1138a2f8972f320a217fd8
-        z-index: 9999;
-=======
->>>>>>> 46dc84e95a204f8b5a68885c3e40c5d48b4d8762
+    <<<<<<< HEAD >>>>>>> 64a32c7e8d69ae83ac1138a2f8972f320a217fd8 z-index: 9999;
+    =======>>>>>>> 46dc84e95a204f8b5a68885c3e40c5d48b4d8762
 }
 
 .Navigationblur {
-    background-image: url(https://www.ilovewallpaper.co.uk/images/i-love-wallpaper-warehouse-photographic-brick-effect-wallpaper-white-grey-ilw261454-p2671-9190_image.jpg);
-	background-position:center;
-    background-size:contain;
+    background-image: url(https: //www.ilovewallpaper.co.uk/images/i-love-wallpaper-warehouse-photographic-brick-effect-wallpaper-white-grey-ilw261454-p2671-9190_image.jpg);
+        background-position:center;
+    background-size: contain;
     background-attachment: fixed;
     filter: blur(2px);
-    position:absolute;
-    width:100%;
-    height:100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    
+
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -50,6 +48,7 @@ nav {
         opacity: 0;
     }
 }
+
 .sub-menu {
     visibility: hidden;
     position: absolute;
@@ -70,7 +69,7 @@ nav {
 }
 
 nav a {
-    font-size:20px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     display: inline-block;
@@ -171,7 +170,7 @@ text-align-cent {
     width: 100%;
 }
 
-#avans_log { 
+#avans_log {
     position: absolute;
     display: inline-block;
     border-radius: 100%;
@@ -188,6 +187,7 @@ text-align-cent {
         opacity: 0;
     }
 }
+
 imgbox {
     height: auto;
     width: auto;
@@ -202,7 +202,7 @@ headbox {
 }
 
 .txtbx {
-    font-size:14px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     border: 1px dotted gray;
     position: absolute;
@@ -213,6 +213,7 @@ headbox {
     animation: fadeIn 4s;
     z-index: -1;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -225,12 +226,7 @@ headbox {
     width: 100%;
     background-color: #fcfcfc;
 }
-.txtbxv1{
-    height: 100%;
-    width: 50%;
-    background-image: linear-gradient(to right, #fcfcfc, cornflowerblue);
-    float: right;
-}
+
 .txtbx2 {
     top: 1900px;
     height: auto;
@@ -245,6 +241,7 @@ headbox {
     top: 45px;
     background-color: #D4D4D4;
 }
+
 #txtfooter {
     padding-top: 40px;
     padding-left: 80px;
@@ -261,7 +258,8 @@ headbox {
     height: 400px;
     opacity: 0.8;
 }
-.smallbximg{
+
+.smallbximg {
     width: 100%;
     height: 100%;
     padding: 11px;
@@ -273,41 +271,51 @@ headbox {
     opacity: 1.0;
 }
 
-.text-box{
+.lefttxt {
+    padding: 20px;
+    left: 20px
+}
+
+.rghttxt {
+    text-align: left;
+    padding: 20px;
+    right: 20px
+}
+
+.paddingarrw {
+    padding: 60px;
+}
+
+#leftarrw {
+    height: 80px;
     display: inline-block;
-    height: 100%;
-    width: 70%;
-    padding: 10px;
-    float: right;
-}
-
-.text-boxR{
-    display: inline-block;
-    height: 100%;
-    width: 40%;
-    padding: 10px;
-    float: left;
-
 
 }
-#left-arr{
-    max-height: 180px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.head{
-    font-style: italic;
-}
-.txt{
-    font-style: italic;
-}
-
-#right-arr{
-    display: inline-block;
-    max-height: 180px;
-    padding-top: 80px;
-    padding-right: 18%;
-    padding-bottom: 80px;
+#rghtarrw {
+    height: 80px;
     transform: rotate(180deg);
+    display: inline-block;
+}
+
+#right{
+   background-image: linear-gradient(to right, #fcfcfc, cornflowerblue); 
+}
+#left{
+    background-image: linear-gradient(to left, #fcfcfc, cornflowerblue); 
+}
+.head {
+    font-style: italic;
+}
+
+.txt {
+    font-style: italic;
+}
+
+
+
+.customcont {
+    top: 600px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
 }
