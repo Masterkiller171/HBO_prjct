@@ -24,8 +24,6 @@
 
 .bootedit1 {
     height: 500px;
-    z-index: -1;
-    position: fixed;
     border-radius: 20px;
 }
 
