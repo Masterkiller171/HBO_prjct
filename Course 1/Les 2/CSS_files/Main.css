@@ -202,6 +202,7 @@ headbox {
 }
 
 .txtbx {
+    display: inline-block;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     border: 1px dotted gray;
@@ -232,14 +233,22 @@ headbox {
     height: auto;
 }
 
-#divintxtbx {
+.divintxtbx {
     border: 1px dotted gray;
-    position: absolute;
+    display: inline-block;
     width: 200px;
     height: 200px;
     left: 5%;
     top: 45px;
     background-color: #D4D4D4;
+}
+
+#autotxtbx {
+    height: auto;
+}
+
+.picbxwrrpr {
+    padding: 50px;
 }
 
 #txtfooter {
@@ -265,6 +274,10 @@ headbox {
     padding: 11px;
 }
 
+#firstbx {
+    padding-left: 120px;
+}
+
 .panel-body > h1 {
     font-style: italic;
     color: #8c8c8c;
@@ -273,17 +286,23 @@ headbox {
 
 .lefttxt {
     padding: 20px;
-    left: 20px
+    left: 30px
 }
 
 .rghttxt {
     text-align: left;
     padding: 20px;
-    right: 20px
+    right: 30px
 }
 
-.paddingarrw {
-    padding: 60px;
+.paddingarrwleft {
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+.paddingarrwrght {
+    padding-left: 40px;
+    padding-top: 60px;
 }
 
 #leftarrw {
@@ -291,18 +310,21 @@ headbox {
     display: inline-block;
 
 }
+
 #rghtarrw {
     height: 80px;
     transform: rotate(180deg);
     display: inline-block;
 }
 
-#right{
-   background-image: linear-gradient(to right, #fcfcfc, cornflowerblue); 
+#right {
+    background-image: linear-gradient(to right, #fcfcfc, cornflowerblue);
 }
-#left{
-    background-image: linear-gradient(to left, #fcfcfc, cornflowerblue); 
+
+#left {
+    background-image: linear-gradient(to left, #fcfcfc, red);
 }
+
 .head {
     font-style: italic;
 }

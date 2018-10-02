@@ -1,13 +1,11 @@
 .menu {
     height: 600px;
     border-radius: 20px;
-    z-index: -1;
 }
 
 .conttxtbx {
     height: auto;
     border-radius: 20px;
-    z-index: -1;
 }
 
 .contcttitlewrrpr {
@@ -25,8 +23,22 @@
     background-color: #8b5d3e;
 }
 
+.boxlefttop:hover {
+    animation: transcolour;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 .boxrighttop {
     background-color: #9f6934;
+}
+
+.boxrighttop:hover {
+    animation: transcolor;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .boxleftbottom {
@@ -34,7 +46,41 @@
     border-bottom-left-radius: 20px;
 }
 
+.boxleftbottom:hover {
+    animation: transcolor;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 .boxrightbottom {
     background-color: #8b5d3e;
     border-bottom-right-radius: 20px;
+}
+
+.boxrightbottom:hover {
+    animation: transcolour;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes transcolour {
+    from {
+        background-color: #8b5d3e;
+    }
+
+    to {
+        background-color: #9f6934;
+    }
+}
+
+@keyframes transcolor {
+    from {
+        background-color: #9f6934;
+    }
+
+    to {
+        background-color: #8b5d3e;
+    }
 }
