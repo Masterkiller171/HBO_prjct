@@ -53,6 +53,7 @@ nav {
         z-index 0s linear 0.01s;
     border-radius: 4px;
     opacity: 0.9;
+    color: #e40f0f;
 }
 
 .sub-menu-parent:hover .sub-menu {
@@ -73,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #a3a3a3;
+    color: #e40f0f;
 }
 
 nav ul,
