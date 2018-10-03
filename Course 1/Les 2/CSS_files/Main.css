@@ -2,6 +2,7 @@
 @import url(https: //fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
+    
     background-image: url(../IMG_files/avans_breda1.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -10,24 +11,12 @@ body {
     z-index: 9999;
 }
 
-.Navigationblur {
-    background-image: url(https: //www.ilovewallpaper.co.uk/images/i-love-wallpaper-warehouse-photographic-brick-effect-wallpaper-white-grey-ilw261454-p2671-9190_image.jpg);
-        background-position:center;
-    background-size: contain;
-    background-attachment: fixed;
-    filter: blur(2px);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-
-}
-
 .sub-menu-parent {
     position: relative;
 }
 
 nav {
+    font-family: sans-serif;
     font-size: 140%;
     position: fixed;
     width: 100%;
@@ -53,7 +42,6 @@ nav {
         z-index 0s linear 0.01s;
     border-radius: 4px;
     opacity: 0.9;
-    color: #e40f0f;
 }
 
 .sub-menu-parent:hover .sub-menu {
@@ -63,18 +51,32 @@ nav {
     transform: translateY(1%);
     transition-delay: 0s, 0s, 0.5s;
 }
+#Whoa {
+  display: inline-block;
+  position: relative;
+  z-index: 99999;
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: 900;
+}
 
+.notThicc {
+    text-transform: lowercase;
+}
 nav a {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: #000000;
     display: inline-block;
     padding: 12px 20px;
     text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-nav a:hover {
+nav a:hover{
     color: #e40f0f;
+    text-decoration: none;
 }
 
 nav ul,
@@ -86,7 +88,7 @@ nav ul li {
 
 nav > ul {
     opacity: 0.8;
-    background: #000000;
+    background: #ffffff;
 }
 
 nav > ul > li {
@@ -94,7 +96,7 @@ nav > ul > li {
 }
 
 .sub-menu {
-    background: #d10000;
+    background: #ffffff;
 }
 
 .sub-menu a {
