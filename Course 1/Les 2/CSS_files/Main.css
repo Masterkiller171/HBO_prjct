@@ -38,7 +38,7 @@ nav {
     width: 130%;
     transform: translateY(-10%);
     z-index: 1;
-    transition: all 0.5s ease 0s, visibility 0s linear 0.3s, 
+    transition: all 0.5s ease 0s, visibility 0s linear 0.3s,
         z-index 0s linear 0.01s;
     border-radius: 4px;
     opacity: 0.9;
@@ -61,7 +61,7 @@ nav {
 }
 
 .notThicc {
-    text-transform: lowercase;
+    text-transform:inherit;
 }
 nav a {
     font-size: 18px;
@@ -70,8 +70,11 @@ nav a {
     display: inline-block;
     padding: 12px 20px;
     text-decoration: none;
+
     font-weight: 900;
     text-transform: uppercase;
+
+    cursor: default;
 }
 
 nav a:hover{
