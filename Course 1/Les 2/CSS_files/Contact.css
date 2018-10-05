@@ -14,13 +14,13 @@
 }
 
 .contacttitle {
-    background-color: #785027;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-image: linear-gradient(-180deg, #d1d1d1, #ffffff)
 }
 
 .boxlefttop {
-    background-color: #8b5d3e;
+    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
 }
 
 .boxlefttop:hover {
@@ -31,7 +31,7 @@
 }
 
 .boxrighttop {
-    background-color: #9f6934;
+    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
 }
 
 .boxrighttop:hover {
@@ -42,7 +42,7 @@
 }
 
 .boxleftbottom {
-    background-color: #9f6934;
+    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
     border-bottom-left-radius: 20px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .boxrightbottom {
-    background-color: #8b5d3e;
+    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
     border-bottom-right-radius: 20px;
 }
 
@@ -67,20 +67,20 @@
 
 @keyframes transcolour {
     from {
-        background-color: #8b5d3e;
+    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
     }
 
     to {
-        background-color: #9f6934;
+    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
     }
 }
 
 @keyframes transcolor {
     from {
-        background-color: #9f6934;
+    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
     }
 
     to {
-        background-color: #8b5d3e;
+    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
     }
 }
