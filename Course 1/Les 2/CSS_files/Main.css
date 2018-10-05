@@ -1,9 +1,14 @@
+@import url(https: //fonts.googleapis.com/css?family=Open+Sans);
+@import url(https: //fonts.googleapis.com/css?family=Bree+Serif);
+
 body {
+    
+    background-image: url(../IMG_files/avans_breda1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    animation: fadeIn 2.5s;
     animation: fadeIn 0.5s;
     z-index: 9999;
-    background-image: url("../IMG_files/avans_breda1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .sub-menu-parent {
@@ -15,13 +20,14 @@ nav {
     font-size: 140%;
     position: fixed;
     width: 100%;
+    background-color: white;
     animation: fadeIn 1s;
     z-index: 2;
-    background-color: white;
 }
 
+
 @keyframes fadeIn {
-    0% {
+    from {
         opacity: 0;
     }
 }
@@ -32,7 +38,8 @@ nav {
     width: 130%;
     transform: translateY(-10%);
     z-index: 1;
-    transition: all 0.5s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: all 0.5s ease 0s, visibility 0s linear 0.3s,
+        z-index 0s linear 0.01s;
     border-radius: 4px;
     opacity: 0.9;
 }
@@ -44,37 +51,38 @@ nav {
     transform: translateY(1%);
     transition-delay: 0s, 0s, 0.5s;
 }
-
 #Whoa {
-    display: inline-block;
-    position: relative;
-    z-index: 99999;
-    text-transform: uppercase;
-    padding: 4px;
-    font-weight: 900;
+  display: inline-block;
+  position: relative;
+  z-index: 99999;
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: 900;
 }
 
 .notThicc {
-    text-transform: inherit;
+    text-transform:inherit;
 }
-
 nav a {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(0, 0, 0);
+    color: #000000;
     display: inline-block;
     padding: 12px 20px;
     text-decoration: none;
+
     font-weight: 900;
     text-transform: uppercase;
+
     cursor: default;
 }
 
-nav a:hover {
-    color: rgb(228, 15, 15);
+nav a:hover{
+    color: #e40f0f;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .down1,
 .down2,
 .down3 {
@@ -139,6 +147,8 @@ nav a:hover {
     }
 }
 
+=======
+>>>>>>> parent of c190d45... #animaties teogevoegt
 nav ul,
 nav ul li {
     list-style-type: none;
@@ -148,7 +158,7 @@ nav ul li {
 
 nav > ul {
     opacity: 0.8;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
 }
 
 nav > ul > li {
@@ -156,7 +166,7 @@ nav > ul > li {
 }
 
 .sub-menu {
-    background: rgb(255, 255, 255);
+    background: #ffffff;
 }
 
 .sub-menu a {
@@ -226,8 +236,6 @@ text-align-cent {
 #strt_img {
     height: 700px;
     width: 100%;
-    margin-left: 1px;
-    margin-top: 1px;
 }
 
 #avans_log {
@@ -239,11 +247,11 @@ text-align-cent {
     left: 47.68%;
     top: 243px;
     animation: fadeIn 2s;
-    z-index: 1;
+    z-index: -1;
 }
 
 @keyframes fadeIn {
-        {
+    from {
         opacity: 0;
     }
 }
@@ -270,13 +278,13 @@ headbox {
     width: 100%;
     height: 300px;
     top: 500px;
+    background-color: white;
     animation: fadeIn 6s;
     z-index: -1;
-    background-color: white;
 }
 
 @keyframes fadeIn {
-    0% {
+    from {
         opacity: 0;
     }
 }
@@ -285,7 +293,7 @@ headbox {
     top: 1200px;
     height: 200px;
     width: 100%;
-    background-color: rgb(252, 252, 252);
+    background-color: #fcfcfc;
 }
 
 .txtbx2 {
@@ -300,7 +308,7 @@ headbox {
     height: 200px;
     left: 5%;
     top: 45px;
-    background-color: rgb(212, 212, 212);
+    background-color: #D4D4D4;
 }
 
 #autotxtbx {
@@ -336,19 +344,19 @@ headbox {
 
 .panel-body > h1 {
     font-style: italic;
-    color: rgb(140, 140, 140);
-    opacity: 1;
+    color: #8c8c8c;
+    opacity: 1.0;
 }
 
 .lefttxt {
     padding: 20px;
-    left: 30px;
+    left: 30px
 }
 
 .rghttxt {
     text-align: left;
     padding: 20px;
-    right: 30px;
+    right: 30px
 }
 
 .paddingarrwleft {
@@ -362,6 +370,7 @@ headbox {
 #leftarrw {
     height: 80px;
     display: inline-block;
+
 }
 
 #rghtarrw {
@@ -371,11 +380,11 @@ headbox {
 }
 
 #right {
-    background-image: linear-gradient(to right, rgb(252, 252, 252), cornflowerblue);
+    background-image: linear-gradient(to right, #fcfcfc, cornflowerblue);
 }
 
 #left {
-    background-image: linear-gradient(to left, rgb(252, 252, 252), red);
+    background-image: linear-gradient(to left, #fcfcfc, red);
 }
 
 .head {
@@ -386,9 +395,11 @@ headbox {
     font-style: italic;
 }
 
+
+
 .customcont {
-    top: 650px;
-    height: auto;
-    display: inline-block;
+    top: 600px;
+    height: 200px;
     background-color: white;
+    display: inline-block;
 }
