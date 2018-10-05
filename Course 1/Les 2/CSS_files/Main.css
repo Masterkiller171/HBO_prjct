@@ -77,25 +77,25 @@ nav a:hover {
 
 .down1,
 .down2,
-.down3{
+.down3 {
     animation: left 1s forwards;
 }
 
-.down2:hover, 
-.down3:hover, 
-.down1:hover   {
+.down2:hover,
+.down3:hover,
+.down1:hover {
     animation: right 1s forwards;
 }
 
 #down21,
 #down22,
-#down31{
+#down31 {
     animation: smolleft 1s forwards;
 }
 
 #down21:hover,
 #down22:hover,
-#down31:hover{
+#down31:hover {
     animation: smolright 1s forwards;
 }
 
