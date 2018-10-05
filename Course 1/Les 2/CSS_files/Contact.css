@@ -85,3 +85,30 @@
         background-color: #ededed
     }
 }
+.slider {
+   animation: unsliders 0.5s ease;
+}
+
+.slider:hover {
+    animation: sliders ease-in-out forwards;
+    animation-duration: 0.5s ;
+}
+
+@keyframes sliders {
+    from {
+        padding-left: 0;
+    }
+
+    to {
+        padding-left: 20px;
+    }
+}
+@keyframes unsliders {
+    from {
+        padding-left: 20px;
+    }
+
+    to {
+        padding-left: 0;
+    }
+}
