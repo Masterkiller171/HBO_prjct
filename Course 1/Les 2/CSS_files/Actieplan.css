@@ -1,0 +1,39 @@
+.wrapper {
+    padding: 100px;
+}
+
+.innerwrapper {
+    padding-top: 100px;
+}
+
+.txtwrapper {
+    padding: 50px;
+}
+
+.chptrwrapper {
+    padding-top: 50px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.backgroundwhite {
+    background-color: white;
+}
+
+.bootedit1 {
+    height: 500px;
+    border-radius: 20px;
+}
+
+.arrow {
+    list-style: circle;
+}
+
+.bootedit2 {
+    height: 700px;
+    z-index: -1;
+    border-radius: 20px;
+
+}

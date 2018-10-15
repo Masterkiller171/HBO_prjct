@@ -26,6 +26,7 @@ nav {
     }
 }
 
+
 .sub-menu {
     visibility: hidden;
     position: absolute;
@@ -45,17 +46,16 @@ nav {
     transition-delay: 0s, 0s, 0.5s;
 }
 
-#Whoa {
-    display: inline-block;
-    position: relative;
-    z-index: 99999;
-    text-transform: uppercase;
-    padding: 4px;
-    font-weight: 900;
+/*Laat de tekst onder de dropdown menu niet in all caps zien*/
+.notThicc { 
+    text-transform: inherit;
 }
 
-.notThicc {
-    text-transform: inherit;
+.info {
+    position: absolute;
+    width: 100%;
+    animation: fadeIn 1s;
+    transform: translateY(200%);
 }
 
 nav a {
@@ -87,12 +87,14 @@ nav a:hover {
     animation: right 1s forwards;
 }
 
+#down20,
 #down21,
 #down22,
 #down31 {
     animation: smolleft 1s forwards;
+    
 }
-
+#down20:hover,
 #down21:hover,
 #down22:hover,
 #down31:hover {
@@ -311,9 +313,13 @@ headbox {
     padding: 57px;
 }
 
-#txtfooter {
-    padding-top: 40px;
+.txtfooter {
     padding-left: 80px;
+    padding-right: 80px;
+}
+
+.txttitel {
+        padding-left: 80px;
     padding-right: 80px;
 }
 
