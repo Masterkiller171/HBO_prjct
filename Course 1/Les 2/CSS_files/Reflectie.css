@@ -7,7 +7,7 @@
 }
 
 .txtwrapper {
-    padding: 50px;
+    padding: 10px;
 }
 
 .chptrwrapper {
@@ -32,8 +32,30 @@
 }
 
 .bootedit2 {
-    height: 700px;
+    height: 1800px;
     z-index: -1;
     border-radius: 20px;
 
+}
+
+.intro {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.lijst {
+    font-weight: bold;
+}
+
+.alinea {
+    padding: 5px;
+}
+
+.schuin {
+    font-style: italic;
+}
+
+.dik {
+    font-size: 13px;
+    font-weight: bold;
 }

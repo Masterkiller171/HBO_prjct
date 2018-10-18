@@ -23,7 +23,7 @@
 }
 
 .bootedit1 {
-    height: 500px;
+    height: 200px;
     border-radius: 20px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .bootedit2 {
-    height: 700px;
+    height: 2500px;
     z-index: -1;
     border-radius: 20px;
 
@@ -51,9 +51,9 @@
 
 th {
     color: white;
-    background: red;
-    border-bottom: 4px solid red;
-    border-right: 1px solid red;
+    background: #2d2d2d;
+    border-bottom: 4px solid #2d2d2d;
+    border-right: 1px solid #2d2d2d;
     font-size: 23px;
     font-weight: 100;
     padding: 24px;
@@ -90,7 +90,7 @@ tr:last-child {
 }
 
 tr:nth-child(odd) td {
-    background: #ffe6e6;
+    background: #b2b2b2;
 }
 
 tr:last-child td:first-child {
@@ -102,7 +102,7 @@ tr:last-child td:last-child {
 }
 
 td {
-    background: #FFFFFF;
+    background: #eaeaea;
     padding: 20px;
     text-align: left;
     vertical-align: middle;
