@@ -275,6 +275,7 @@ headbox {
     animation: fadeIn 6s;
     z-index: -1;
     background-color: white;
+    
 }
 
 @keyframes fadeIn {
@@ -398,3 +399,5 @@ headbox {
     display: inline-block;
     background-color: white;
 }
+
+
