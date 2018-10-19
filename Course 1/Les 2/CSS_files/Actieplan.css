@@ -12,7 +12,7 @@
 
 .chptrwrapper {
     padding-top: 50px;
-}
+} 
 
 .textcenter {
     text-align: center;
@@ -32,8 +32,8 @@
 }
 
 .bootedit2 {
-    height: 2500px;
-    z-index: -1;
+    height: auto;
+    z-index: 1;
     border-radius: 20px;
 
 }
@@ -68,6 +68,7 @@ th:first-child {
 }
 
 th:last-child {
+    border-top-right-radius: 20px;
     border-top-right-radius: 20px;
     border-right: none;
 }
