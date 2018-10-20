@@ -65,14 +65,13 @@
     animation-direction: alternate;
 }
 
-<<<<<<< HEAD
-.slider {
-   animation: unsliders 0.5s ease;
+<<<<<<< HEAD .slider {
+    animation: unsliders 0.5s ease;
 }
 
 .slider:hover {
     animation: sliders ease-in-out forwards;
-    animation-duration: 0.5s ;
+    animation-duration: 0.5s;
 }
 
 @keyframes sliders {
@@ -84,6 +83,7 @@
         padding-left: 20px;
     }
 }
+
 @keyframes unsliders {
     from {
         padding-left: 20px;
@@ -93,34 +93,34 @@
         padding-left: 0;
     }
 }
+
 @keyframes transcolour {
     from {
-    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
+        background-image: linear-gradient(-90deg, #992d2d, #ac3939);
     }
 
     to {
-    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
+        background-image: linear-gradient(-90deg, #c64242, #d85e5e);
     }
 }
 
 @keyframes transcolor {
     from {
-    background-image: linear-gradient(-90deg, #c64242, #d85e5e);
+        background-image: linear-gradient(-90deg, #c64242, #d85e5e);
     }
 
     to {
-    background-image: linear-gradient(-90deg, #992d2d, #ac3939);
+        background-image: linear-gradient(-90deg, #992d2d, #ac3939);
     }
 }
-=======
->>>>>>> 61296c86d23675580c8e135c51f07cc5fec32d4c
-.slider {
-   animation: unsliders 0.5s ease;
+
+======= > > > > > > > 61296c86d23675580c8e135c51f07cc5fec32d4c .slider {
+    animation: unsliders 0.5s ease;
 }
 
 .slider:hover {
     animation: sliders ease-in-out forwards;
-    animation-duration: 0.5s ;
+    animation-duration: 0.5s;
 }
 
 @keyframes sliders {
@@ -132,6 +132,7 @@
         padding-left: 20px;
     }
 }
+
 @keyframes unsliders {
     from {
         padding-left: 20px;
@@ -141,6 +142,7 @@
         padding-left: 0;
     }
 }
+
 @keyframes transcolour {
     from {
         background-color: #ededed
@@ -148,16 +150,24 @@
 
     to {
 
-    background-color:darkgray;
+        background-color: darkgray;
     }
 }
 
 @keyframes transcolor {
     from {
-    background-color:darkgray;
+        background-color: darkgray;
     }
 
     to {
         background-color: #ededed
     }
+}
+
+.schuin {
+    font-weight: italic;
+}
+
+.dik {
+    font-weight: bold;
 }
