@@ -1,0 +1,421 @@
+body {
+    animation: fadeIn 0.5s;
+    z-index: 9999;
+    background-image: url("../IMG_files/avans_breda1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sub-menu-parent {
+    position: relative;
+}
+
+nav {
+    font-family: sans-serif;
+    font-size: 140%;
+    position: fixed;
+    width: 100%;
+    animation: fadeIn 1s;
+    z-index: 2;
+    background-color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+}
+
+
+.sub-menu {
+    visibility: hidden;
+    position: absolute;
+    width: 130%;
+    transform: translateY(-10%);
+    z-index: 1;
+    transition: all 0.5s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+.sub-menu-parent:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(1%);
+    transition-delay: 0s, 0s, 0.5s;
+}
+
+/*Laat de tekst onder de dropdown menu niet in all caps zien*/
+.notThicc {
+    text-transform: inherit;
+}
+
+.info {
+    position: absolute;
+    width: 100%;
+    animation: fadeIn 3s;
+    transform: translateY(200%);
+    padding: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+nav a:hover {
+    color: rgb(228, 15, 15);
+    text-decoration: none;
+}
+
+.down1,
+.down2,
+.down3 {
+    animation: left 1s forwards;
+}
+
+.down2:hover,
+.down3:hover,
+.down1:hover {
+    animation: right 1s forwards;
+}
+
+#down20,
+#down21,
+#down22,
+#down31 {
+    animation: smolleft 1s forwards;
+
+}
+
+#down20:hover,
+#down21:hover,
+#down22:hover,
+#down31:hover {
+    animation: smolright 1s forwards;
+}
+
+@keyframes smolright {
+    from {
+        padding-left: 0;
+    }
+
+    to {
+        padding-left: 20px;
+    }
+}
+
+@keyframes smolleft {
+    from {
+        padding-left: 20px;
+    }
+
+    to {
+        padding-left: 0;
+    }
+}
+
+@keyframes right {
+    from {
+        padding-left: 100px;
+    }
+
+    to {
+        padding-left: 120px;
+    }
+}
+
+@keyframes left {
+    from {
+        padding-left: 120px;
+    }
+
+    to {
+        padding-left: 100px;
+    }
+}
+
+nav ul,
+nav ul li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav > ul {
+    opacity: 0.8;
+    background: rgb(255, 255, 255);
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+.sub-menu {
+    background: rgb(255, 255, 255);
+}
+
+.sub-menu a {
+    white-space: nowrap;
+}
+
+.filler {
+    width: 1px;
+    height: 10%;
+}
+
+.filler-small {
+    height: 5%;
+    width: 1px;
+}
+
+.filler1 {
+    width: 1px;
+    height: 3%;
+}
+
+.left-filler {
+    float: left;
+    width: 3%;
+    height: 1px;
+}
+
+.right-filler {
+    float: right;
+    width: 3%;
+    height: 1px;
+}
+
+.two {
+    height: 10%;
+}
+
+.three {
+    height: 60%;
+}
+
+.right_floater {
+    float: right;
+}
+
+.left_floater {
+    float: left;
+}
+
+text-align-cent {
+    text-align: center;
+}
+
+.bruv {
+    text-decoration: none;
+}
+
+.padder {
+    padding: 30px 0px 0px;
+}
+
+.userbtn {
+    width: 90%;
+    height: 40px;
+}
+
+#strt_img {
+    height: 700px;
+    width: 100%;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+#avans_log {
+    position: absolute;
+    display: inline-block;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    left: 47.68%;
+    top: 243px;
+    animation: fadeIn 2s;
+    z-index: 1;
+}
+
+@keyframes fadeIn {
+        {
+        opacity: 0;
+    }
+}
+
+imgbox {
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+headbox {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: black;
+}
+
+.txt_wrap {
+    padding: 20px;
+}
+
+.txtbx {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px dotted gray;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    animation: fadeIn 6s;
+    z-index: 1;
+    background-color: white;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+}
+
+.txtbx1 {
+    top: 1200px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+
+.txtbx2 {
+    top: 2500px;
+    height: auto;
+}
+
+.divintxtbx {
+    border: 1px dotted gray;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    left: 5%;
+    top: 45px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.picbxwrrpr {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: white;
+
+}
+
+.txtfooter {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.txttitel {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.block {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 400px;
+    width: 110%;
+    text-align: center;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.smallbximg {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.panel-body > h1 {
+    font-style: italic;
+    color: rgb(140, 140, 140);
+    opacity: 1;
+}
+
+.lefttxt {
+    padding: 20px;
+    left: 30px;
+}
+
+.rghttxt {
+    text-align: left;
+    padding: 20px;
+    right: 30px;
+}
+
+.paddingarrwleft {
+    padding-top: 50px;
+}
+
+.paddingarrwrght {
+    padding-top: 50px;
+}
+
+#leftarrw {
+    height: 80px;
+    display: inline-block;
+}
+
+#rghtarrw {
+    height: 80px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+#right {
+    background-image: linear-gradient(to right, rgb(252, 252, 252), cornflowerblue);
+}
+
+#left {
+    background-image: linear-gradient(to left, rgb(252, 252, 252), red);
+}
+
+.head {
+    font-style: italic;
+}
+
+.txt {
+    font-style: italic;
+}
+
+.customcont {
+    top: 650px;
+    height: auto;
+    display: inline-block;
+    background-color: white;
+}
+
+.cooltxt {
+    font-style: italic;
+    font-weight: 500;
+    color: grey;
+}
+
+.auteur {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
