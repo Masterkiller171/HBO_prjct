@@ -1,3 +1,12 @@
+#github {
+    color: black;
+    font-weight: 500;
+    font-size: 0.90em;
+}
+#github:hover{
+    font-size: 1.02em;
+}
+
 .menu {
     height: 600px;
     border-radius: 20px;
