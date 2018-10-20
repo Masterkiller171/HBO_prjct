@@ -302,13 +302,12 @@ headbox {
 }
 
 .divintxtbx {
-    border: 1px dotted gray;
     display: inline-block;
     width: 200px;
     height: 200px;
     left: 5%;
     top: 45px;
-    background-color: rgb(212, 212, 212);
+    background-color: white;
     border-radius: 10px;
 }
 
