@@ -1,3 +1,13 @@
+.text-align {
+    text-align: left;
+}
+
+.titel {
+    font-weight: 700;
+    font-family:sans-serif;
+    font-size: 1.4em;
+}
+
 .wrapper {
     padding: 100px;
 }
@@ -7,7 +17,7 @@
 }
 
 .txtwrapper {
-    padding: 10px;
+    padding: 50px;
 }
 
 .chptrwrapper {
@@ -32,8 +42,8 @@
 }
 
 .bootedit2 {
-    height: 1800px;
-    z-index: -1;
+    height: auto;
+    z-index: 1;
     border-radius: 20px;
 
 }
@@ -58,4 +68,11 @@
 .dik {
     font-size: 13px;
     font-weight: bold;
+}
+
+smart {
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: grey;
 }
