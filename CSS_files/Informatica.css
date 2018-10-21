@@ -1,0 +1,87 @@
+.txtfooter {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.txttitel {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.text-align {
+    text-align: left;
+}
+
+.titel {
+    font-weight: 700;
+    font-family:sans-serif;
+    font-size: 1.4em;
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+.innerwrapper {
+    padding-top: 100px;
+}
+
+.txtwrapper {
+    padding: 50px;
+}
+
+.chptrwrapper {
+    padding-top: 10px;
+}
+
+
+.backgroundwhite {
+    background-color: white;
+}
+
+.bootedit1 {
+    height: 500px;
+    border-radius: 20px;
+}
+
+.arrow {
+    list-style: circle;
+}
+
+.bootedit2 {
+    height: auto;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+.intro {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lijst {
+    font-weight: bold;
+}
+
+.alinea {
+    padding: 5px;
+}
+
+.schuin {
+    font-style: italic;
+}
+
+.dik {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+smart {
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: grey;
+}
+#schets{
+    width: 95%;
+}
